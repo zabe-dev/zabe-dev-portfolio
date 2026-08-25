@@ -41,16 +41,18 @@ export default function Home() {
     localStorage.setItem('theme', next ? 'dark' : 'light');
   }
 
-  return <div className="shell">
-    <Header dark={dark} onToggleTheme={toggleTheme} />
-    <main id="top">
-      <Hero />
-      <ProjectsSection projects={projects} page={projectPage} onPageChange={setProjectPage} />
-      <AboutSection />
-      <EducationSection />
-      <BlogSection posts={posts} page={blogPage} onPageChange={setBlogPage} />
-      <ContactSection />
-    </main>
-    <Footer />
-  </div>;
+  return (
+    <div className="shell">
+      <Header dark={dark} onToggleTheme={toggleTheme} />
+      <main id="top">
+        <Hero />
+        <ProjectsSection projects={projects} page={projectPage} onPageChange={setProjectPage} />
+        <AboutSection />
+        <EducationSection />
+        <BlogSection posts={posts} page={blogPage} onPageChange={setBlogPage} />
+        <ContactSection />
+      </main>
+      <Footer />
+    </div>
+  );
 }
