@@ -95,10 +95,11 @@ footer div { display:flex; gap:18px; }
 @media(max-width:680px) {
   .shell { width:min(100% - 28px,920px); } header { height:66px; } nav { gap:16px; }
   .hero { grid-template-columns:1fr; gap:42px; padding:72px 0 85px; } h1 { font-size:34px; }
-  .portrait-photo { width:min(220px,70vw); }
+  .portrait-photo { display:none; }
+  .hero-links { justify-content:center; }
   main>section:not(.hero) { padding:52px 0; }
   .section-heading { grid-template-columns:1fr; gap:6px; }
-  .project-grid { grid-template-columns:1fr; gap:18px; }
+  .project-grid { grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; }
   .project-copy p { min-height:auto; }
   .course-list { padding-left:0; }
   .post-list { padding-left:0; }
@@ -111,6 +112,7 @@ footer div { display:flex; gap:18px; }
   .about-grid { padding-left:0; }
   .skills { grid-template-columns:repeat(2,minmax(0,1fr)); }
   .contact { align-items:flex-start; flex-direction:column; margin-bottom:55px; padding:22px!important; }
-  footer { gap:16px; flex-direction:column; }
+  footer { align-items:center; gap:16px; flex-direction:column; text-align:center; }
+  footer div { justify-content:center; flex-wrap:wrap; }
 }
 @media(prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } .status span { animation:none; } .portrait-photo,.portrait-photo img { transition:none; } .portrait-photo:hover,.portrait-photo:hover img { transform:none; } }
