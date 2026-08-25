@@ -1,5 +1,5 @@
 :root { --bg:#f7f7f6; --panel:#fff; --text:#191919; --muted:#6b6b68; --soft:#ededeb; --accent:#3f3f3d; --signal:#315d48; --status:#26a653; --sage:#e5eee8; --sand:#f1eadc; --blue:#e4eaf0; --gray-1:#e8e8e6; --gray-2:#efefed; --gray-3:#e2e2e0; color-scheme:light; }
-:root[data-theme='dark'] { --bg:#111211; --panel:#191a19; --text:#eeeeeb; --muted:#9b9b96; --soft:#262725; --accent:#c5c5c1; --signal:#8fc0a6; --status:#55dc7d; --sage:#1d2922; --sand:#2b271f; --blue:#20262d; --gray-1:#20211f; --gray-2:#252624; --gray-3:#2b2c2a; color-scheme:dark; }
+:root[data-theme='dark'] { --bg:#0d1117; --panel:#161b22; --text:#f0f3f6; --muted:#a8b3be; --soft:#30363d; --accent:#d0d7de; --signal:#7fc8a2; --status:#55dc7d; --sage:#17251f; --sand:#282219; --blue:#172331; --gray-1:#171d25; --gray-2:#1d2229; --gray-3:#232930; color-scheme:dark; }
 * { box-sizing:border-box; }
 html { background:var(--bg); scroll-behavior:smooth; }
 body { margin:0; background:var(--bg); color:var(--text); font-family:var(--font-dm-sans),"Helvetica Neue",sans-serif; font-size:14px; font-weight:400; line-height:1.65; }
