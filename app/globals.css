@@ -714,6 +714,9 @@ footer div {
   margin-bottom: 12px;
   padding-left: 4px;
 }
+.article-content ol li {
+  margin-bottom: 0;
+}
 .article-content a {
   color: var(--signal);
   text-decoration-line: underline;

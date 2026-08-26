@@ -9,12 +9,15 @@ export function AboutSection() {
       </div>
       <div className="about-grid">
         <p>
-          I got into coding through online games. In high school, I set up forums and fixed websites
-          for gaming communities in exchange for staff roles, and those early projects eventually
-          helped me find remote work and support myself. Since then, I’ve kept learning by following
-          whatever problem was in front of me—from WordPress and hosting to frontend development,
-          automation, and security research. Most of what I know came from trying things, breaking
-          things, reading the docs, and figuring out how to make them work again.
+          Born eleven thousand seven hundred twelve days ago. I got into coding through online
+          games. In high school, I set up forums and fixed websites for gaming communities in
+          exchange for staff roles, and those early projects eventually helped me find remote work
+          and support myself. Since then, I’ve kept learning by following whatever problem was in
+          front of me—from WordPress and hosting to frontend development, automation, and security
+          research. Most of what I know came from trying things, breaking things, reading the docs,
+          and figuring out how to make them work again. These days, I’m a developer by trade, and I
+          still like breaking down hard problems, building useful things for the web, and figuring
+          out why things break.
         </p>
         <p className="recognition">
           Right now, I spend most of my time working on bug bounties through HackerOne, Bugcrowd,
