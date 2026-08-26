@@ -31,7 +31,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
       <Header homeHref="/" sectionPrefix="/" />
       <main className="article-page">
         <Link className="article-back" href="/blog">
-          ← All writing
+          ← All blog posts
         </Link>
         <article>
           <header className="article-header">

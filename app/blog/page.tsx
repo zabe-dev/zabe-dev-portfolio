@@ -5,7 +5,7 @@ import { Header } from '../components/Header';
 import { getAllPosts } from '../../lib/blog';
 
 export const metadata: Metadata = {
-  title: 'Writing',
+  title: 'Blog',
   description: 'Notes about development, security, tools, and things I am learning.',
 };
 
@@ -15,7 +15,7 @@ export default function BlogPage() {
       <Header homeHref="/" sectionPrefix="/" />
       <main className="blog-index-page">
         <header className="blog-page-header">
-          <h1>Writing</h1>
+          <h1>Blog</h1>
           <p>Notes on development, security, useful tools, and whatever I’m learning.</p>
         </header>
         <BlogIndex posts={getAllPosts()} />

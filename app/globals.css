@@ -69,7 +69,7 @@ nav a {
   width: min(920px, calc(100% - 40px));
   margin: 0 auto;
 }
-header {
+.shell > header {
   height: 76px;
   display: flex;
   align-items: center;
@@ -743,7 +743,7 @@ footer div {
   .shell {
     width: min(100% - 28px, 920px);
   }
-  header {
+  .shell > header {
     height: 66px;
   }
   nav {
