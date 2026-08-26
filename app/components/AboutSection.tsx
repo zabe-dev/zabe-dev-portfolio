@@ -1,6 +1,62 @@
+'use client';
+
+import { useEffect, useState } from 'react';
 import { skills } from '../data';
 
+const birthDate = { year: 1994, month: 7, day: 2 };
+
+function getAgeInDays() {
+  const today = new Date();
+  const todayUtc = Date.UTC(today.getFullYear(), today.getMonth(), today.getDate());
+  const birthDateUtc = Date.UTC(birthDate.year, birthDate.month, birthDate.day);
+
+  return Math.floor((todayUtc - birthDateUtc) / 86_400_000);
+}
+
+function numberToWords(value: number): string {
+  const ones = [
+    '',
+    'one',
+    'two',
+    'three',
+    'four',
+    'five',
+    'six',
+    'seven',
+    'eight',
+    'nine',
+    'ten',
+    'eleven',
+    'twelve',
+    'thirteen',
+    'fourteen',
+    'fifteen',
+    'sixteen',
+    'seventeen',
+    'eighteen',
+    'nineteen',
+  ];
+  const tens = ['', '', 'twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety'];
+
+  if (value < 20) return ones[value];
+  if (value < 100) return `${tens[Math.floor(value / 10)]}${value % 10 ? `-${ones[value % 10]}` : ''}`;
+  if (value < 1_000) {
+    return `${ones[Math.floor(value / 100)]} hundred${value % 100 ? ` ${numberToWords(value % 100)}` : ''}`;
+  }
+  if (value < 1_000_000) {
+    return `${numberToWords(Math.floor(value / 1_000))} thousand${value % 1_000 ? ` ${numberToWords(value % 1_000)}` : ''}`;
+  }
+
+  return value.toLocaleString('en-US');
+}
+
 export function AboutSection() {
+  const [ageInDays, setAgeInDays] = useState(getAgeInDays);
+
+  useEffect(() => {
+    setAgeInDays(getAgeInDays());
+  }, []);
+
   return (
     <section className="about" id="about">
       <div className="section-heading">
@@ -9,7 +65,7 @@ export function AboutSection() {
       </div>
       <div className="about-grid">
         <p>
-          Born eleven thousand seven hundred twelve days ago, I’ve spent a good part of that time
+          Born {numberToWords(ageInDays)} days ago, I’ve spent a good part of that time
           learning by following my curiosity. Coding entered the picture through online games: in
           high school, I set up forums and fixed websites for gaming communities in exchange for
           staff roles. Those early projects helped me find remote work and support myself, and I’ve
