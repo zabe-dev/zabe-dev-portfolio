@@ -1,6 +1,6 @@
 ---
 title: 'Finally making my portfolio site'
-date: '2026-08-26'
+date: '2026-07-14'
 excerpt: 'I kept putting off my own portfolio, so I finally sat down and made one that actually feels like me.'
 tags:
   - Development

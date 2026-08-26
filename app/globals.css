@@ -660,6 +660,7 @@ footer div {
 }
 .article-back-row {
   display: flex;
+  justify-content: flex-end;
   margin-bottom: 48px;
 }
 .article-back {
@@ -860,7 +861,6 @@ footer div {
     justify-content: flex-start;
   }
   .article-back-row {
-    justify-content: flex-end;
     margin-bottom: 36px;
   }
 }
