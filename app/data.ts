@@ -5,7 +5,6 @@ export type Project = {
   href: string;
   image?: string;
 };
-export type BlogPost = { date: string; title: string; excerpt: string; href: string };
 export type Course = {
   title: string;
   institution: string;
@@ -21,16 +20,6 @@ export const projects: Project[] = [
     stack: 'Python · Bash · Web security',
     href: 'https://github.com/zabe-dev/bug-bounty',
     image: '/bug-bounty-tools.jpg',
-  },
-];
-
-export const posts: BlogPost[] = [
-  {
-    date: 'Coming soon',
-    title: 'A placeholder for my first post',
-    excerpt:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. This space will hold notes about what I’m building, learning, and thinking about.',
-    href: 'https://example.com',
   },
 ];
 

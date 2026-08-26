@@ -1,11 +1,9 @@
-import type { BlogPost } from '../data';
-import { PAGE_SIZE } from '../data';
-import { Pagination } from './Pagination';
+import Link from 'next/link';
+import type { BlogPostMeta } from '../../lib/blog';
 
-type Props = { posts: BlogPost[]; page: number; onPageChange: (page: number) => void };
+type Props = { posts: BlogPostMeta[] };
 
-export function BlogSection({ posts, page, onPageChange }: Props) {
-  const pageCount = Math.ceil(posts.length / PAGE_SIZE);
+export function BlogSection({ posts }: Props) {
   return (
     <section id="blog">
       <div className="section-heading">
@@ -13,30 +11,20 @@ export function BlogSection({ posts, page, onPageChange }: Props) {
         <p>Things I’m working on, learning, and thinking about.</p>
       </div>
       <div className="post-list">
-        {posts.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE).map((post) => (
-          <a
-            className="post-item"
-            href={post.href}
-            key={post.title}
-            target="_blank"
-            rel="noreferrer"
-          >
-            <time>{post.date}</time>
+        {posts.slice(0, 5).map((post) => (
+          <Link className="post-item" href={`/blog/${post.slug}`} key={post.slug}>
+            <time dateTime={post.date}>{post.dateLabel}</time>
             <div>
               <h3>{post.title}</h3>
               <p>{post.excerpt}</p>
             </div>
-            <span aria-hidden="true">↗</span>
-          </a>
+            <span aria-hidden="true">→</span>
+          </Link>
         ))}
       </div>
-      <Pagination
-        label="Blog pagination"
-        page={page}
-        pageCount={pageCount}
-        indented
-        onChange={onPageChange}
-      />
+      <div className="blog-all-link">
+        <Link href="/blog">View all posts →</Link>
+      </div>
     </section>
   );
 }
