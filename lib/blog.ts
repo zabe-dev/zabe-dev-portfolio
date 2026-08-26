@@ -15,6 +15,7 @@ export type BlogPostMeta = {
   month: string;
   year: string;
   tags: string[];
+  readingMinutes: number;
 };
 
 export type BlogPost = BlogPostMeta & { content: string };
@@ -44,6 +45,7 @@ function readPost(filename: string): BlogPost {
     month: new Intl.DateTimeFormat('en', { month: 'short', timeZone: 'UTC' }).format(parsedDate),
     year: String(parsedDate.getUTCFullYear()),
     tags: Array.isArray(data.tags) ? data.tags.map(String) : [],
+    readingMinutes: Math.max(1, Math.ceil(content.trim().split(/\s+/).length / 220)),
     content,
   };
 }

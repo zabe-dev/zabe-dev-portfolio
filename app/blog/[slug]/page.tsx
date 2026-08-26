@@ -37,14 +37,14 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         </div>
         <article>
           <header className="article-header">
-            <time dateTime={post.date}>{post.dateLabel}</time>
             <h1>{post.title}</h1>
-            <p>{post.excerpt}</p>
-            <div>
-              {post.tags.map((tag) => (
-                <span key={tag}>{tag}</span>
-              ))}
-            </div>
+            <p className="article-subheader">
+              <time dateTime={post.date}>{post.dateLabel}</time>
+              <span aria-hidden="true">·</span>
+              <span>{post.readingMinutes} min</span>
+              <span aria-hidden="true">·</span>
+              <span>{post.tags.join(', ')}</span>
+            </p>
           </header>
           <div className="article-content">
             <ReactMarkdown remarkPlugins={[remarkGfm]}>{post.content}</ReactMarkdown>

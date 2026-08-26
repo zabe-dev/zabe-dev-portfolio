@@ -673,27 +673,21 @@ footer div {
 .article-header {
   margin-bottom: 48px;
 }
-.article-header time {
-  display: block;
-  margin-bottom: 15px;
+.article-header h1 {
+  margin-bottom: 12px;
+  font-size: clamp(28px, 5vw, 34px);
+}
+.article-subheader {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin: 0;
   color: var(--muted);
   font-family: var(--font-dm-mono), monospace;
   font-size: 9px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-}
-.article-header h1 {
-  margin-bottom: 16px;
-}
-.article-header > p {
-  margin: 0 0 18px;
-  color: var(--muted);
-  font-size: 16px;
-}
-.article-header div {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
 }
 .article-content {
   color: var(--text);
@@ -705,7 +699,7 @@ footer div {
   margin: 42px 0 14px;
 }
 .article-content h2 {
-  font-size: 22px;
+  font-size: 18px;
 }
 .article-content h3 {
   font-size: 17px;
@@ -715,6 +709,10 @@ footer div {
 .article-content ol,
 .article-content blockquote {
   margin: 0 0 22px;
+}
+.article-content li {
+  margin-bottom: 12px;
+  padding-left: 4px;
 }
 .article-content a {
   color: var(--signal);
