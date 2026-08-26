@@ -7,9 +7,7 @@ export function Hero() {
         <div className="status">
           <span aria-hidden="true" /> Available for new work
         </div>
-        <h1>
-          I build websites, automate the boring parts, and enjoy figuring out why things break.
-        </h1>
+        <h1>I build stuff, automate the boring parts, and enjoy figuring out why things break.</h1>
         <p>
           Currently, I’m learning{' '}
           <a className="inline-link" id="ai" href="#ai">
