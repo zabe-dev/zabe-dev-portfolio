@@ -514,6 +514,8 @@ footer div {
 }
 .blog-all-link a {
   color: var(--signal);
+}
+.blog-all-link a span {
   text-decoration-line: underline;
   text-decoration-style: dotted;
   text-underline-offset: 5px;

@@ -23,7 +23,7 @@ export function BlogSection({ posts }: Props) {
         ))}
       </div>
       <div className="blog-all-link">
-        <Link href="/blog">View all posts →</Link>
+        <Link href="/blog"><span>View all posts</span> →</Link>
       </div>
     </section>
   );
