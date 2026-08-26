@@ -66,10 +66,10 @@ export function AboutSection() {
       <div className="about-grid">
         <p>
           Born {numberToWords(ageInDays)} days ago, I’ve spent a good part of that time
-          learning by following my curiosity. Coding entered the picture through online games: in
-          high school, I set up forums and fixed websites for gaming communities in exchange for
-          staff roles. Those early projects helped me find remote work and support myself, and I’ve
-          kept learning by following whatever problem was in front of me—from WordPress and hosting
+          learning by following my curiosity. I started to learn coding in high school, setting up
+          forums and fixing websites for gaming communities in exchange for staff roles. Those
+          early projects helped me find remote work and support myself, and I’ve kept learning by
+          following whatever problem was in front of me—from WordPress and hosting
           to frontend development, automation, and security research. Most of what I know came from
           trying things, breaking things, reading the docs, and figuring out how to make them work
           again.
