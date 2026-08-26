@@ -506,6 +506,8 @@ footer div {
   gap: 18px;
 }
 .blog-all-link {
+  display: flex;
+  justify-content: flex-end;
   margin: 20px 0 0 180px;
   font-family: var(--font-dm-mono), monospace;
   font-size: 10px;
