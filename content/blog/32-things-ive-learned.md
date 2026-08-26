@@ -15,37 +15,37 @@ I’ve been supporting myself since high school. I found coding through online g
 
 Here are 32 things I’ve learned in 32 years.
 
-1. **Start before you feel ready.** An imperfect first attempt will teach you more than another month of waiting.
-2. **Figuring things out is a real skill.** You won’t always know the answer, but you can learn how to search, test, read the documentation, and stay with a problem.
-3. **Curiosity can change your life.** Installing forums for gaming communities eventually led me into development, hosting, automation, and security.
-4. **Small opportunities count.** A minor task or website fix can teach you something that becomes useful years later.
-5. **You don’t need a traditional path to keep moving.** Mine came through remote work, online communities, real problems, and plenty of trial and error.
-6. **Documentation is part of the work.** It isn’t a last resort. It is usually where the answer has been waiting.
-7. **Ask better questions.** Understand what is actually broken before looking for a solution.
-8. **Fix the simple thing first.** Check the obvious causes before rebuilding everything.
-9. **Keep backups.** You only need to lose important work once to understand why.
-10. **Rest is not wasted time.** A tired brain can turn a small bug into a three-hour mystery.
-11. **Games can teach useful things.** They taught me patience, teamwork, systems, strategy, and how much I enjoy solving problems.
-12. **The internet can be a classroom.** You can learn almost anything if you are willing to read, experiment, and stay curious.
-13. **Not everything needs to become work.** It is okay to enjoy something without monetizing or optimizing it.
-14. **Simple usually lasts longer.** This applies to websites, tools, routines, and explanations.
-15. **Make things easier for the next person.** Clear names, useful notes, and maintainable code are small forms of respect for whoever comes after you—including your future self.
-16. **Security starts with paying attention.** Look closely, question assumptions, and test responsibly.
-17. **Responsible disclosure matters.** Finding a vulnerability is only part of the job. Reporting it clearly and protecting affected people matter just as much.
-18. **You can be proud without knowing everything.** Someone will always know more, but that doesn’t erase how far you have come.
-19. **You can change your mind.** Changing direction after learning something new is not failure.
-20. **Consistency is quieter than motivation.** Small repeated effort is less exciting, but it usually finishes the work.
-21. **Your work doesn’t need to impress everyone.** It should be useful to the people it is for.
-22. **Learn the basics deeply.** Tools change quickly. Fundamentals make it easier to understand whatever replaces them.
-23. **Automate the boring parts carefully.** Automating confusion only makes mistakes happen faster.
-24. **Say when you don’t know.** “I don’t know yet, but I’ll look into it” is a useful answer.
-25. **Being dependable matters.** People remember whether you communicated, followed through, and showed up when something went wrong.
-26. **Protect your time.** Not every message is urgent, and not every opportunity is right.
-27. **Compare less.** The internet makes it easy to compare your unfinished work with somebody else’s best result.
-28. **Keep evidence of your progress.** Save old projects, notes, screenshots, and small wins. Memory is bad at showing you how much you have improved.
-29. **A good life can look ordinary.** Peace, useful work, enough rest, and time for things you enjoy are not small achievements.
-30. **People rarely have the full story.** Be slower to judge. Everyone is carrying context you cannot see.
-31. **It is never too late to make the thing.** I put off making my portfolio for a long time. It exists now, and that matters more than how long it took.
-32. **Keep something to look forward to.** A project, a game, a new skill, or a quiet day is enough.
+1. Start before you feel ready because an imperfect attempt teaches you more than another month of waiting.
+2. Figuring things out is a real skill, even when you don’t know the answer at the beginning.
+3. Curiosity can change your life in ways you never planned for.
+4. Small opportunities can teach you something that becomes useful years later.
+5. You don’t need a traditional path to keep moving forward.
+6. Documentation is part of the work, not a last resort.
+7. Ask better questions before looking for an answer.
+8. Check the simple causes before rebuilding everything.
+9. Keep backups of anything you would hate to lose.
+10. Rest is not wasted time, especially when a small bug starts feeling impossible.
+11. Games can teach patience, teamwork, systems, strategy, and problem-solving.
+12. The internet can be a classroom if you are willing to read, experiment, and stay curious.
+13. Not everything you enjoy needs to become work.
+14. Simple things usually last longer than complicated ones.
+15. Make things easier for the next person, including your future self.
+16. Security starts with paying attention and questioning assumptions.
+17. Responsible disclosure matters as much as finding the vulnerability.
+18. You can be proud of your progress without knowing everything.
+19. Changing your mind after learning something new is not failure.
+20. Consistency finishes more work than motivation does.
+21. Your work doesn’t need to impress everyone; it needs to be useful to the people it is for.
+22. Learn the basics deeply because tools will always change.
+23. Understand a task before automating it.
+24. Saying “I don’t know yet” is better than pretending.
+25. People remember whether you communicate, follow through, and show up when something goes wrong.
+26. Protect your time because not every message is urgent and not every opportunity is right.
+27. Don’t compare your unfinished work with somebody else’s best result.
+28. Save old projects, notes, screenshots, and small wins so you can see your progress.
+29. A good life can look ordinary: useful work, enough rest, and time for things you enjoy.
+30. Be slower to judge because people carry context you cannot see.
+31. It is never too late to make the thing you kept putting off.
+32. Keep something small to look forward to.
 
 Thirty-two doesn’t feel like having all the answers. It feels more like being comfortable with continuing to learn them.
