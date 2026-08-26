@@ -15,37 +15,37 @@ I’ve been supporting myself since high school. I found coding through online g
 
 Here are 32 things I’ve learned in 32 years.
 
-1. Start before you feel ready.
-2. Learning how to figure things out is a skill.
-3. Curiosity can change your life.
-4. Small opportunities can matter later.
-5. Your path doesn’t need to look traditional.
-6. Reading the documentation is part of the work.
-7. Better questions lead to better answers.
-8. Check the simple causes first.
-9. Keep backups of anything important.
-10. Rest is not wasted time.
-11. Games can teach useful skills.
-12. The internet can be a classroom.
-13. Not every hobby needs to become work.
-14. Simple things usually last longer.
-15. Help your future self whenever you can.
-16. Security starts with paying attention.
-17. Report vulnerabilities responsibly.
-18. Be proud without knowing everything.
-19. Changing your mind is not failure.
-20. Consistency matters more than motivation.
-21. Useful work doesn’t need to impress everyone.
-22. Learn the basics because tools change.
-23. Understand a task before automating it.
-24. Saying “I don’t know yet” is honest.
-25. Being dependable matters.
-26. Protect your time and attention.
-27. Compare yourself less.
-28. Keep evidence of your progress.
-29. A good life can look ordinary.
-30. Be slower to judge people.
-31. It is never too late to make something.
-32. Keep something to look forward to.
+1. Most things are not as serious as they feel today.
+2. Rest is part of living, not a reward for exhaustion.
+3. Peace is more valuable than winning every argument.
+4. People remember how you made them feel.
+5. Time moves faster when you stop paying attention.
+6. A quiet day can still be a good day.
+7. You don’t have to explain every choice you make.
+8. Some friendships are meant for certain seasons.
+9. Saying no can be an act of self-respect.
+10. Being alone and being lonely are different things.
+11. Your body usually knows when you need a break.
+12. Comparison makes good things feel smaller.
+13. Nobody has life completely figured out.
+14. People can love you and still misunderstand you.
+15. Apologizing sincerely is never embarrassing.
+16. Forgiving someone doesn’t require trusting them again.
+17. Small routines can hold you together.
+18. You are allowed to outgrow old versions of yourself.
+19. Not every ending needs a villain.
+20. Happiness often looks ordinary from the outside.
+21. Asking for help does not make you weak.
+22. You can miss someone and still choose distance.
+23. Kindness matters most when nobody is watching.
+24. Your pace does not need to match anyone else’s.
+25. A bad day is not a bad life.
+26. Gratitude and sadness can exist at the same time.
+27. Protecting your energy is not selfish.
+28. The people you love need your time, not perfection.
+29. Growing older is a privilege, even when it feels strange.
+30. Simple moments become the memories you keep.
+31. Starting over is sometimes the healthiest choice.
+32. Always keep something to look forward to.
 
 Thirty-two doesn’t feel like having all the answers. It feels more like being comfortable with continuing to learn them.
