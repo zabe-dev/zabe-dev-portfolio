@@ -14,12 +14,12 @@ export type Course = {
 
 export const projects: Project[] = [
   {
-    title: 'Bug bounty tools',
+    title: 'Bug Bounty Tools',
     description:
       'A growing collection of tools I created—with and without AI assistance—for authorized security testing and repeatable research workflows.',
     stack: 'Python · Bash · Web security',
     href: 'https://github.com/zabe-dev/bug-bounty',
-    image: '/bug-bounty-tools.jpg',
+    image: '/security-research.png',
   },
 ];
 
@@ -30,7 +30,7 @@ export const courses: Course[] = [
     detail: 'Studied in 2022',
   },
   {
-    title: 'Database fundamentals',
+    title: 'Database Fundamentals',
     institution: 'Microsoft Technology Associate',
     detail: 'Certified in 2020',
     certification: true,

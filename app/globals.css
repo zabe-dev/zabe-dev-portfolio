@@ -515,7 +515,12 @@ footer div {
   text-transform: uppercase;
 }
 .blog-all-link a {
+  color: inherit;
+}
+.blog-all-link a:hover,
+.blog-all-link a:focus-visible {
   color: var(--signal);
+  opacity: 1;
 }
 .blog-all-link a span {
   text-decoration-line: underline;
