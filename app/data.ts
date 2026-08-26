@@ -19,7 +19,7 @@ export const projects: Project[] = [
       'A growing collection of tools I created—with and without AI assistance—for authorized security testing and repeatable research workflows.',
     stack: 'Python · Bash · Web security',
     href: 'https://github.com/zabe-dev/bug-bounty',
-    image: '/security-research.png',
+    image: '/security-tools.webp',
   },
 ];
 
