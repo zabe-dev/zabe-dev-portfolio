@@ -72,6 +72,10 @@ export const skills = [
   'DNS',
   'On-page SEO',
   'Technical support',
+  'Email management',
+  'Calendar management',
+  'Data entry',
+  'Internet research',
 ];
 
 export const PAGE_SIZE = 2;
