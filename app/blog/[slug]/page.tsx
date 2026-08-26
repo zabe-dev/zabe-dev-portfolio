@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
-import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import { ArrowTextLink } from '../../components/ArrowTextLink';
 import { Footer } from '../../components/Footer';
 import { Header } from '../../components/Header';
 import { getAllPosts, getPostBySlug } from '../../../lib/blog';
@@ -30,9 +30,11 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     <div className="shell">
       <Header homeHref="/" sectionPrefix="/" />
       <main className="article-page">
-        <Link className="article-back" href="/blog">
-          ← All blog posts
-        </Link>
+        <div className="article-back-row">
+          <ArrowTextLink className="article-back" href="/blog" arrow="left">
+            All blog posts
+          </ArrowTextLink>
+        </div>
         <article>
           <header className="article-header">
             <time dateTime={post.date}>{post.dateLabel}</time>

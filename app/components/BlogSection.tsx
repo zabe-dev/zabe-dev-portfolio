@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import type { BlogPostMeta } from '../../lib/blog';
+import { ArrowTextLink } from './ArrowTextLink';
 
 type Props = { posts: BlogPostMeta[] };
 
@@ -23,9 +24,7 @@ export function BlogSection({ posts }: Props) {
         ))}
       </div>
       <div className="blog-all-link">
-        <Link href="/blog">
-          <span>View all posts</span> →
-        </Link>
+        <ArrowTextLink href="/blog">View all posts</ArrowTextLink>
       </div>
     </section>
   );

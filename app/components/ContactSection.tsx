@@ -1,3 +1,5 @@
+import { ArrowTextLink } from './ArrowTextLink';
+
 export function ContactSection() {
   return (
     <section className="contact" id="contact">
@@ -8,9 +10,9 @@ export function ContactSection() {
           <a href="mailto:jay@zabe.dev?subject=Resume%20request">Send me a request.</a>
         </p>
       </div>
-      <a className="email-link" href="mailto:jay@zabe.dev">
-        <span>jay@zabe.dev</span> ↗
-      </a>
+      <ArrowTextLink className="email-link" href="mailto:jay@zabe.dev" arrow="up-right">
+        jay@zabe.dev
+      </ArrowTextLink>
     </section>
   );
 }
