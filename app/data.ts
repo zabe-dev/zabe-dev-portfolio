@@ -25,9 +25,9 @@ export const projects: Project[] = [
 
 export const courses: Course[] = [
   {
-    title: 'Computer Science',
+    title: 'BS Computer Science',
     institution: 'System Plus College Foundation',
-    detail: 'Studied in 2022',
+    detail: 'Attended · 2019–2022',
   },
   {
     title: 'Database Fundamentals',
@@ -35,11 +35,15 @@ export const courses: Course[] = [
     detail: 'Certified in 2020',
     certification: true,
   },
-  { title: 'Computer Engineering', institution: 'AMA Computer College', detail: 'Studied in 2014' },
   {
-    title: 'Computer Technology',
+    title: 'BS Computer Engineering',
+    institution: 'AMA Computer College',
+    detail: 'Attended · 2014',
+  },
+  {
+    title: 'Associate in Computer Technology',
     institution: 'System Technology Institute',
-    detail: 'Studied in 2012',
+    detail: 'Attended · 2012',
   },
 ];
 
