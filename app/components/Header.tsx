@@ -32,7 +32,7 @@ export function Header({ homeHref = '#top', sectionPrefix = '' }: HeaderProps) {
         <a href={`${sectionPrefix}#projects`}>Projects</a>
         <a href={`${sectionPrefix}#about`}>About</a>
         <a href={`${sectionPrefix}#education`}>Education</a>
-        <a href="/blog">Blog</a>
+        <a href={`${sectionPrefix}#blog`}>Blog</a>
         <a href={`${sectionPrefix}#contact`}>Contact</a>
         <button
           className="theme-icon"
