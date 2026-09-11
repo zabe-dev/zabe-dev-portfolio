@@ -4,6 +4,7 @@ export type Project = {
   stack: string;
   href: string;
   image?: string;
+  theme?: 'kabayan' | 'endorsecoin' | 'security';
 };
 export type Course = {
   title: string;
@@ -14,12 +15,28 @@ export type Course = {
 
 export const projects: Project[] = [
   {
+    title: 'Kabayan Pastries',
+    description: 'A storefront for Filipino-inspired pastries with menu, contact, and brand content.',
+    stack: 'Next.js, TypeScript, PostgreSQL, Cloudflare R2, Resend',
+    href: 'https://kabayan-pastries.zabe.dev',
+    image: '/project-thumbnails/kabayan-pastries-480-270.png',
+    theme: 'kabayan',
+  },
+  {
+    title: 'EndorseCoin',
+    description: 'A crypto discovery platform for launches, presales, airdrops, rankings, and votes.',
+    stack: 'Next.js, TypeScript, PostgreSQL, Cloudflare R2, Resend, Coolify, Redis, Zod, Better Auth',
+    href: 'https://endorsecoin.com/',
+    image: '/project-thumbnails/endorsecoin-480-270.png',
+    theme: 'endorsecoin',
+  },
+  {
     title: 'Bug Bounty Tools',
-    description:
-      'A growing collection of tools I created—with and without AI assistance—for authorized security testing and repeatable research workflows.',
-    stack: 'Python · Bash · Web security',
+    description: 'Security testing tools for repeatable bug bounty research workflows.',
+    stack: 'Python, Bash, Web security',
     href: 'https://github.com/zabe-dev/bug-bounty',
-    image: '/security-tools.webp',
+    image: '/project-thumbnails/bug-bounty-tools-480-270.png',
+    theme: 'security',
   },
 ];
 
@@ -78,7 +95,7 @@ export const skills = [
   'Internet research',
 ];
 
-export const PAGE_SIZE = 2;
+export const PAGE_SIZE = 3;
 
 export const pageTitles: Record<string, string> = {
   projects: 'Projects',

@@ -17,17 +17,17 @@ export function ProjectsSection({ projects, page, onPageChange }: Props) {
           const itemNumber = page * PAGE_SIZE + index + 1;
           return (
             <a
-              className="project-card"
+              className={`project-card${project.theme ? ` project-${project.theme}` : ''}`}
               href={project.href}
               key={project.title}
               target="_blank"
               rel="noreferrer"
             >
               <div
-                className={`placeholder tone-${itemNumber}${project.image ? ' project-image' : ''}`}
+                className={`placeholder${project.image ? ' project-image' : ''}`}
                 aria-hidden="true"
               >
-                {project.image && <img src={project.image} alt="" width="1000" height="690" />}
+                {project.image && <img src={project.image} alt="" width="480" height="270" />}
                 <span>{String(itemNumber).padStart(2, '0')}</span>
               </div>
               <div className="project-copy">
