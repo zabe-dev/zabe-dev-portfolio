@@ -301,30 +301,6 @@ h2 {
   position: relative;
   z-index: 1;
 }
-.project-kabayan {
-  --project-tone: #f97316;
-  --project-copy: #fff1dc;
-}
-.project-endorsecoin {
-  --project-tone: #14240f;
-  --project-copy: #e8f7d2;
-}
-.project-security {
-  --project-tone: #283845;
-  --project-copy: #e4eaf0;
-}
-:root[data-theme='dark'] .project-kabayan {
-  --project-tone: #8f3f13;
-  --project-copy: #241815;
-}
-:root[data-theme='dark'] .project-endorsecoin {
-  --project-tone: #19340d;
-  --project-copy: #152112;
-}
-:root[data-theme='dark'] .project-security {
-  --project-tone: #1d2d38;
-  --project-copy: #1a2228;
-}
 .project-copy {
   flex: 1;
   padding: 12px;
