@@ -99,18 +99,18 @@ export function AboutSection() {
           again.
         </p>
         <p className="recognition">
-          Right now, I spend most of my time working on bug bounties through HackerOne, Bugcrowd,
-          and privately hosted programs. Along the way, I reported broken access control involving
-          PII exposure to the{' '}
+          These days, I spend most of my time hunting for bugs on HackerOne, Bugcrowd, and private
+          programs. I’ve been recognized by the{' '}
           <a className="inline-link" href="https://lacity.gov/" target="_blank" rel="noreferrer">
             City of Los Angeles
           </a>{' '}
-          and reflected XSS to{' '}
+          for reporting an access control flaw that exposed personal information, and by{' '}
           <a className="inline-link" href="https://iongroup.com/" target="_blank" rel="noreferrer">
             ION Group
-          </a>
-          . They both thanked me for sending the reports, but I can’t share the technical details
-          because they were handled through responsible disclosure.
+          </a>{' '}
+          for reporting cross-site scripting (XSS), code injection, and broken object-level
+          authorization (BOLA) vulnerabilities. The technical details remain private as part of
+          the responsible disclosure process.
         </p>
         <div className="skills">
           {skills.map((skill) => (
