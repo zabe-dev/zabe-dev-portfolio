@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react';
 import { skills } from '../data';
 
+// JavaScript months are zero-indexed: 7 is August.
 const birthDate = { year: 1994, month: 7, day: 2 };
 
 function getAgeInDays() {
@@ -51,10 +52,33 @@ function numberToWords(value: number): string {
 }
 
 export function AboutSection() {
-  const [ageInDays, setAgeInDays] = useState(getAgeInDays);
+  const [ageInDays, setAgeInDays] = useState<number | null>(null);
 
   useEffect(() => {
-    setAgeInDays(getAgeInDays());
+    let midnightTimer: ReturnType<typeof setTimeout>;
+
+    const refreshAge = () => {
+      clearTimeout(midnightTimer);
+      setAgeInDays(getAgeInDays());
+
+      const now = new Date();
+      const nextMidnight = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1);
+      midnightTimer = setTimeout(refreshAge, nextMidnight.getTime() - now.getTime());
+    };
+
+    const refreshWhenVisible = () => {
+      if (document.visibilityState === 'visible') refreshAge();
+    };
+
+    refreshAge();
+    window.addEventListener('focus', refreshAge);
+    document.addEventListener('visibilitychange', refreshWhenVisible);
+
+    return () => {
+      clearTimeout(midnightTimer);
+      window.removeEventListener('focus', refreshAge);
+      document.removeEventListener('visibilitychange', refreshWhenVisible);
+    };
   }, []);
 
   return (
@@ -65,7 +89,7 @@ export function AboutSection() {
       </div>
       <div className="about-grid">
         <p>
-          Born {numberToWords(ageInDays)} days ago, I’ve spent a good part of that time
+          Born {ageInDays === null ? 'on August 2, 1994' : `${numberToWords(ageInDays)} days ago`}, I’ve spent a good part of that time
           learning by following my curiosity. I started to learn coding in high school, setting up
           forums and fixing websites for gaming communities in exchange for staff roles. Those
           early projects helped me find remote work and support myself, and I’ve kept learning by
