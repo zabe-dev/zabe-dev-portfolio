@@ -1,0 +1,4 @@
+[phases.build]
+# Replace the detected caches: tsconfig.tsbuildinfo is a file, not a directory.
+# Do not add "..." here; that would restore the invalid file cache mount.
+cacheDirectories = [".next/cache", "node_modules/.cache"]
