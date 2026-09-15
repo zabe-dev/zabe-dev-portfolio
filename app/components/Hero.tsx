@@ -11,7 +11,8 @@ export function Hero() {
         <h1>I build stuff, automate the boring parts, and enjoy figuring out why things break.</h1>
 
         <p>
-          I build and explore AI tools that make everyday applications smarter. I built and maintain{' '}
+          These days, I’m mostly building random things, experimenting with AI, and figuring out how
+          to make web applications a little smarter. I built and maintain{' '}
           <a
             className="inline-link"
             href="https://endorsecoin.com"
@@ -19,8 +20,8 @@ export function Hero() {
             rel="noreferrer"
           >
             EndorseCoin
-          </a>
-          , and work as a freelance web developer with{' '}
+          </a>{' '}
+          and do freelance web development with{' '}
           <a
             className="inline-link"
             href="https://bridgestackstudio.com"
@@ -29,7 +30,8 @@ export function Hero() {
           >
             Bridge Stack Studio
           </a>
-          . Outside of development, I’m learning cybersecurity and bug bounty hunting on HackerOne.
+          . I also spend a good amount of time learning cybersecurity and hunting for bugs on
+          HackerOne.
         </p>
 
         <div className="hero-links">

@@ -4,7 +4,7 @@ export type Project = {
   stack: string;
   href: string;
   image?: string;
-  theme?: 'kabayan' | 'endorsecoin' | 'security';
+  theme?: 'cloudbunbakery' | 'kabayanpastries' | 'endorsecoin' | 'security';
 };
 export type Course = {
   title: string;
@@ -15,17 +15,28 @@ export type Course = {
 
 export const projects: Project[] = [
   {
+    title: 'Cloud Bun Bakery',
+    description: 'A landing page for Filipino bakery with framer motion animations.',
+    stack: 'Next.js, TypeScript, Framer Motion, Cloudflare R2',
+    href: 'https://cloud-bun-bakery.zabe.dev',
+    image: '/project-thumbnails/cloud-bun-bakery-480-270.png',
+    theme: 'cloudbunbakery',
+  },
+  {
     title: 'Kabayan Pastries',
-    description: 'A storefront for Filipino-inspired pastries with menu, contact, and brand content.',
+    description:
+      'A storefront for Filipino-inspired pastries with menu, contact, and brand content.',
     stack: 'Next.js, TypeScript, PostgreSQL, Cloudflare R2, Resend',
     href: 'https://kabayan-pastries.zabe.dev',
     image: '/project-thumbnails/kabayan-pastries-480-270.png',
-    theme: 'kabayan',
+    theme: 'kabayanpastries',
   },
   {
     title: 'EndorseCoin',
-    description: 'A crypto discovery platform for launches, presales, airdrops, rankings, and votes.',
-    stack: 'Next.js, TypeScript, PostgreSQL, Cloudflare R2, Resend, Coolify, Redis, Zod, Better Auth',
+    description:
+      'A crypto discovery platform for launches, presales, airdrops, rankings, and votes.',
+    stack:
+      'Next.js, TypeScript, PostgreSQL, Cloudflare R2, Resend, Coolify, Redis, Zod, Better Auth',
     href: 'https://endorsecoin.com/',
     image: '/project-thumbnails/endorsecoin-480-270.png',
     theme: 'endorsecoin',
