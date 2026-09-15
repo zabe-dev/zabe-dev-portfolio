@@ -7,10 +7,11 @@ export function Hero() {
         <div className="status">
           <span aria-hidden="true" /> Available for new work
         </div>
+
         <h1>I build stuff, automate the boring parts, and enjoy figuring out why things break.</h1>
+
         <p>
-          Currently, I’m focused on building and exploring AI tools that can make everyday
-          applications smarter and more useful. I built and maintain{' '}
+          I build and explore AI tools that make everyday applications smarter. I built and maintain{' '}
           <a
             className="inline-link"
             href="https://endorsecoin.com"
@@ -19,7 +20,7 @@ export function Hero() {
           >
             EndorseCoin
           </a>
-          , and I also work with{' '}
+          , and work as a freelance web developer with{' '}
           <a
             className="inline-link"
             href="https://bridgestackstudio.com"
@@ -27,14 +28,15 @@ export function Hero() {
             rel="noreferrer"
           >
             Bridge Stack Studio
-          </a>{' '}
-          as a freelance web developer, building and managing websites for clients. Outside of
-          development, I spend time learning cybersecurity and bug bounty hunting on HackerOne.
+          </a>
+          . Outside of development, I’m learning cybersecurity and bug bounty hunting on HackerOne.
         </p>
+
         <div className="hero-links">
           <SocialLinks />
         </div>
       </div>
+
       <div className="portrait-photo">
         <img src="/profile-photo.jpg" alt="Jay smiling" width="704" height="880" />
       </div>
