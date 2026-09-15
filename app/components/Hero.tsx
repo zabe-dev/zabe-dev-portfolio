@@ -9,7 +9,7 @@ export function Hero() {
         </div>
         <h1>I build stuff, automate the boring parts, and enjoy figuring out why things break.</h1>
         <p>
-          Currently, I’m focused on building web products and exploring how AI can make everyday
+          Currently, I’m focused on building and exploring AI tools that can make everyday
           applications smarter and more useful. I built and maintain{' '}
           <a
             className="inline-link"
