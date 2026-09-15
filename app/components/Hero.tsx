@@ -9,29 +9,34 @@ export function Hero() {
         </div>
         <h1>I build stuff, automate the boring parts, and enjoy figuring out why things break.</h1>
         <p>
-          Currently, I’m learning{' '}
-          <a className="inline-link" id="ai" href="#ai">
-            AI prompt engineering
-          </a>{' '}
-          and exploring how AI can make everyday web products smarter and more useful. I also work
-          as a developer at{' '}
+          Currently, I’m focused on building web products and exploring how AI can make everyday
+          applications smarter and more useful. I built and maintain{' '}
           <a
             className="inline-link"
-            href="https://bridgestackstudio.com/"
+            href="https://endorsecoin.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            EndorseCoin
+          </a>
+          , and I also work with{' '}
+          <a
+            className="inline-link"
+            href="https://bridgestackstudio.com"
             target="_blank"
             rel="noreferrer"
           >
             Bridge Stack Studio
-          </a>
-          , where I build and manage websites for clients. Outside of development, I spend time on
-          security research and bug bounty hunting.
+          </a>{' '}
+          as a freelance web developer, building and managing websites for clients. Outside of
+          development, I spend time learning cybersecurity and bug bounty hunting on HackerOne.
         </p>
         <div className="hero-links">
           <SocialLinks />
         </div>
       </div>
       <div className="portrait-photo">
-        <img src="/profile-photo.jpg" alt="Jay Beza smiling" width="704" height="880" />
+        <img src="/profile-photo.jpg" alt="Jay smiling" width="704" height="880" />
       </div>
     </section>
   );
